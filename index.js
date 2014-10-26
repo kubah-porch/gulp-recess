@@ -2,7 +2,7 @@
 var gutil = require('gulp-util');
 var through = require('through2');
 var chalk = require('chalk');
-var recess = require('recess');
+var recess = require('edp-recess');
 var RcLoader = require('rcloader');
 
 // prevent RECESS from reading files
